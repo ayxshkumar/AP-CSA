@@ -1,5 +1,5 @@
 /**
- * Assignment: 1.1.1 My Timeline
+ * Assignment: 1.1.2 My Personal Timeline
  * Name:       Ayush Kumar
  * Partner:    None
  * Instructor: Mr. Virak
