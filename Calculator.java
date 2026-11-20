@@ -21,7 +21,8 @@ public class Calculator
 
         System.out.print("Choose a mode (basic, scientific, stats): ");
         String typed = scan.nextLine();
-        String mode = typed.trim().toLowerCase();   // so " Basic " still matches "basic"
+        // so " Basic " still matches "basic"
+        String mode = typed.trim().toLowerCase();
 
         switch (mode)
         {
@@ -93,7 +94,7 @@ public class Calculator
                 int n2 = scan.nextInt();
                 int n3 = scan.nextInt();
 
-                // Largest of three in two steps, without Math.max
+                // Largest of three in two steps
                 int max = (n1 > n2) ? n1 : n2;
                 max = (n3 > max) ? n3 : max;
                 System.out.println("Largest: " + max);
